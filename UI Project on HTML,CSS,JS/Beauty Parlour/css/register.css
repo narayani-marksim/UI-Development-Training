@@ -1,0 +1,38 @@
+body {
+	background-image: url(../Assest/register.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.register input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+	background: white;
+	height: 25px;
+	color: black;
+	font-size: 15px;
+}
+
+
+.register input[type="submit"] {
+
+	background-color: red;
+	font-size: 20px;
+	color: white;
+	font-family: times;
+	border-radius: 20px;
+}
+
+.registerhead {
+	font-family: courier new;
+	font-size: 35px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.regform {
+	font-family: courier new;
+	font-size: 20px;
+	color: white;
+}
