@@ -1,0 +1,54 @@
+.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: springgreen;
+    transition-property: transform;
+    transition-timing-function: ease;
+    padding: 8px;
+  }
+  
+  .square.td-instant {
+    transition-duration: 0s;
+  }
+  
+  .square.td-speedy {
+    transition-duration: 200ms;
+  }
+  
+  .square.td-middling {
+    transition-duration: 800ms;
+  }
+  
+  .square.td-glacial {
+    transition-duration: 5s;
+  }
+  
+  .square:is(:hover, :focus) {
+    transform: scale(0.8);
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+  }
+  
+  .wrapper .square:nth-child(odd) {
+    justify-self: end;
+  }
+  
+  .wrapper .square:nth-child(even) {
+    justify-self: start;
+  }
+  
+  .square .duration {
+    font-family: monospace;
+  }
+  
+  /* Decorative styles */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
