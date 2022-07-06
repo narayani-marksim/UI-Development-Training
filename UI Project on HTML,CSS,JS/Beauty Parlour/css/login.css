@@ -1,0 +1,89 @@
+body {
+    background-image: url("../assest/design.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login {
+    color: white;
+    left: 20%;
+    position: absolute;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.3125rem 1.25rem;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.navbar {
+    margin-bottom: 3.125rem;
+    border-radius: 0;
+}
+
+a:hover,
+a:active {
+    background-color: none;
+}
+
+.login input[type="email"],
+input[type="password"] {
+    background: white;
+    height: 1.875rem;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.login input[type="submit"] {
+    height: 2.5rem;
+    background-color: red;
+    font-size: 1.25rem;
+    color: white;
+    font-family: times;
+    border-radius: 1.25rem;
+}
+
+#logo {
+    float: left;
+    height: 3.125rem;
+    width: 9.375rem
+}
+
+.welcome {
+    font-family: courier new;
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+}
+
+.loginhere {
+    font-family: cursive;
+    font-size: 1.875rem;
+    text-align: center;
+    color: brown;
+}
+
+.loginbutton {
+    width: 20%;
+    margin-bottom: 2.5rem;
+}
+
+.account {
+    font-family: cursive;
+    font-size: 1.875rem;
+    color: deeppink;
+}
