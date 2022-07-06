@@ -1,0 +1,47 @@
+body {
+    background-image: url(../asset/register.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.register input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    background: white;
+    height: 1.5625rem;
+    color: black;
+    font-size: 0.9375rem;
+}
+
+.register input[type="submit"] {
+    background-color: red;
+    font-size: 1.25rem;
+    color: white;
+    font-family: times;
+    border-radius: 1.25rem;
+}
+
+.registerhead {
+    font-family: courier new;
+    font-size: 2.1875rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.regform {
+    font-family: courier new;
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: 1.25rem;
+    display: block;
+}
+
+.regform input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"] {
+    background: white;
+    margin-bottom: 1.25rem;
+    display: block;
+}

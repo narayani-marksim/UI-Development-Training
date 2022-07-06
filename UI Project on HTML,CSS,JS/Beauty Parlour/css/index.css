@@ -1,0 +1,56 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://t3.ftcdn.net/jpg/00/61/20/20/360_F_61202025_GNHWGxqelrvHCwF1JCgclnqTuoUu3TIA.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.3125rem 1.25rem;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-family: brushscript mt, cursive;
+    font-size: 5rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.title h2 {
+    color: white;
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    margin-bottom: 3.125rem;
+    border-radius: 0;
+}
+
+#logo {
+    height: 3.125rem;
+    width: 9.375rem
+}
